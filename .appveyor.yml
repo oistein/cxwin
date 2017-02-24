@@ -1,0 +1,9 @@
+branches:
+    only:
+        - master
+skip_tags: true
+build_script:
+    - mkdir build
+    - cd build
+    - cmake ..
+    - cmake --build .
