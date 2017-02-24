@@ -7,6 +7,9 @@
 int main() {
     cxwin_window* window = cxwin_create_window();
 
+    while (true) {
+        cxwin_next_event(window);
+    }
 
     cxwin_terminate(window);
     return EXIT_SUCCESS;
