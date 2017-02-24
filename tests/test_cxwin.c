@@ -3,6 +3,7 @@
 //
 
 #include <cxwin.h>
+#include <stdbool.h>
 
 int main() {
     cxwin_window* window = cxwin_create_window();
